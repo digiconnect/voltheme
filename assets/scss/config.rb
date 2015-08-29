@@ -3,6 +3,8 @@
 # quickly dive right in.
 # For more info about compass + SASS: http://net.tutsplus.com/tutorials/html-css-techniques/using-compass-and-sass-for-css-in-your-next-project/
 
+add_import_path "../../bower_components/font-awesome/scss"
+
 #########
 # 1. Set this to the root of your project when deployed:
 http_path = "/"
@@ -14,7 +16,6 @@ images_dir = "../images"
 javascripts_dir = "../js"
 environment = :development
 relative_assets = true
-
 
 # 3. You can select your preferred output style here (can be overridden via the command line):
 output_style = :expanded

@@ -36,4 +36,4 @@ CSS file.
 @import "print";
 
 // Import font-awesome
-@import "font-awesome";
+@import "../../bower_components/sfont-awesome/scss/font-awesome.scss";
