@@ -13,7 +13,7 @@ Template Name: Front Page
 					 
 					  <!-- To see additional archive styles, visit the /parts directory -->
 					    <?php get_template_part( 'parts/loop', 'archive' ); ?>
-								
+							<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 6, 'title' => false, 'description' => false ) ); ?>	
 				    </div> <!-- end #main -->
     
 				    <?php get_sidebar(); ?>
@@ -42,7 +42,7 @@ Template Name: Front Page
      		<div class="row">
      			<div class="icon-bar five-up">
      				<a class="item">
-            <i class="fa fa-amazon"></i>
+            <i class="fa fa-clone"></i>
             <label>Like</label>
           </a>
      			</div>

@@ -22,10 +22,7 @@ require_once(get_template_directory().'/assets/functions/comments.php');
 require_once(get_template_directory().'/assets/functions/page-navi.php'); 
 
 // Adds support for multiple languages
-require_once(get_template_directory().'/assets/translation/translation.php');
-
-// Add custom user roles
-require_once(get_template_directory().'/assets/functions/userroles.php'); 
+require_once(get_template_directory().'/assets/translation/translation.php'); 
 
 // Adds site styles to the WordPress editor
 //require_once(get_template_directory().'/assets/functions/editor-styles.php'); 
