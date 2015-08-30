@@ -39,14 +39,6 @@ Template Name: Front Page
      		<div class="small-12 small-centered columns panel">
      				<h3>Add yourself to the Volunteer Pool!</h3><a class="button right">Search</a>
      		</div>
-     		<div class="row">
-     			<div class="icon-bar five-up">
-     				<a class="item">
-            <i class="fa fa-clone"></i>
-            <label>Like</label>
-          </a>
-     			</div>
-     		</div>
 			</div> <!-- end #content -->
 
 <?php get_footer(); ?>

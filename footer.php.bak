@@ -8,12 +8,30 @@
                     </div>
                     <div class="row"><?php echo get_theme_mod('text_setting','Hello'); ?></div>
                   </div><!-- end #top-footer -->
-		    					<div class="row">
-		    						<div class="large-6 columns">
-		    							<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <a href="<?php echo get_site_url(); ?>"><?php bloginfo('name'); ?></a> by <a href="http://www.digitalconcoction.net">Digital Concoction</a>
+		    					<div class="bottom-footer">
+		    						<div class="row">
+		    							<div class="large-6 large-uncentered columns">
+		    							<div class="row"><p class="source-org copyright">&copy; <?php echo date('Y'); ?> <a href="<?php echo get_site_url(); ?>"><?php bloginfo('name'); ?></a> by <a href="http://www.digitalconcoction.net">Digital Concoction</a></p></div>
 		    						</div>
 		    					<div class="large-6 columns">
-		    					</div>
+		    						<div class="icon-bar five-up">
+     									<a class="item">
+					            	<i class="fa fa-facebook"></i>
+					            </a>
+					            <a class="item">
+					            	<i class="fa fa-twitter"></i>
+					            </a>
+					            <a class="item">
+					            	<i class="fa fa-pinterest"></i>
+					            </a>
+					            <a class="item">
+					            	<i class="fa fa-google-plus"></i>
+					            </a>
+					            <a class="item">
+					            	<i class="fa fa-envelope"></i>
+					            </a>
+     							</div>
+		    					</div></div>
 							</div><!-- end #bottom-footer -->
 					</footer> <!-- end .footer -->
 				</div> <!-- end #container -->
