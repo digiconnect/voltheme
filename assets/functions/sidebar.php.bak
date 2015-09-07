@@ -1,17 +1,5 @@
 <?php
 // SIDEBARS AND WIDGETIZED AREAS
-
-// Function for getting user roles (this is meant to be used to show custom menu based on whether volunteer or organization logged in
-function get_user_role() {
-global $current_user;
-
-$user_roles = $current_user->roles;
-$user_role = array_shift($user_roles);
-
-return $user_role;
-}
-
-// Adding sidebars
 function joints_register_sidebars() {
 	register_sidebar(array(
 		'id' => 'sidebar1',

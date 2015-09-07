@@ -7,7 +7,8 @@ Here's where the magic happens. Here is where you import
 all of your Sass files so they can compile into one
 CSS file. 
 ******************************************************************/
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -494,7 +495,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1382,7 +1383,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1784,7 +1785,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3370,7 +3371,7 @@ label.error {
   display: inline-block;
   font-size: 0;
   width: 100%;
-  background: #333333; }
+  background: #222222; }
   .icon-bar > * {
     display: block;
     float: left;
@@ -3810,7 +3811,7 @@ kbd {
 
 .label {
   display: inline-block;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -4198,7 +4199,7 @@ button:focus {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4206,7 +4207,7 @@ button:focus {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4460,7 +4461,7 @@ button:focus {
 
 .side-nav {
   display: block;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -4482,7 +4483,7 @@ button:focus {
         color: #1cc7ff; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4602,7 +4603,7 @@ button:focus {
   .sub-nav li {
     color: #999999;
     float: left;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4791,7 +4792,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover,
@@ -5107,7 +5108,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 0.9375rem;
@@ -5669,7 +5670,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -6782,8 +6783,17 @@ a:link, a:visited:link {
 /*********************
 H1, H2, H3, H4, H5 P STYLES
 *********************/
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
-  text-decoration: none; }
+p {
+  font-family: 'Merriweather', serif;
+  color: #777; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: 'Lato', sans-serif; }
+  h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+    text-decoration: none; }
+
+.fa-lg {
+  font-size: 3.33333rem !important; }
 
 /*********************
 HEADER STYLES
@@ -6866,7 +6876,7 @@ POSTS & CONTENT STYLES
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -6964,7 +6974,7 @@ COMMENT STYLES
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -7062,10 +7072,13 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .top-footer {
-  background: #074e68; }
+  background: #333333; }
+
+.top-footer h3 {
+  color: #FAFAFA; }
 
 .bottom-footer {
-  background: #333; }
+  background: #222222; }
 
 .footer {
   clear: both;
