@@ -22,16 +22,6 @@ function joints_scripts_and_styles() {
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
     
-    
-    // Register frm map, geolcation for formidable
-    
-    function custom_register_admin_scripts() {
-			
-			wp_register_script( 'custom-javascript', plugins_url( 'formidable-geocoding/js/frmmap.js' , dirname(__FILE__) ) );
-			wp_enqueue_script( 'custom-javascript' );
-			
-			} // end custom_register_admin_scripts
-			add_action( 'admin_enqueue_scripts', 'custom_register_admin_scripts' );
     // Register foundation icons
     // wp_enqueue_style( 'foundation-icons', get_template_directory_uri() . '/assets/css/icons/foundation-icons.css', array(), '3.0', 'all' );
 

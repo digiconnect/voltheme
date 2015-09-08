@@ -6,7 +6,6 @@
                     <?php if(is_active_sidebar('footer-sidebar-3')){ dynamic_sidebar('footer-sidebar-3');}?>
                     <?php if(is_active_sidebar('footer-sidebar-4')){ dynamic_sidebar('footer-sidebar-4');}?>
                     </div>
-                    <div class="row"><?php echo get_theme_mod('text_setting','Hello'); ?></div>
                   </div><!-- end #top-footer -->
 		    					<div class="bottom-footer">
 		    						<div class="row">
@@ -15,19 +14,19 @@
 		    						</div>
 		    					<div class="large-6 large-uncentered columns">
 		    						<div class="icon-bar five-up">
-     									<a class="item">
+     									<a href="<?php echo get_theme_mod('facebook_setting','http://www.facebook.com');?>" class="item">
 					            	<i class="fa fa-facebook"></i>
 					            </a>
-					            <a class="item">
+					            <a href="<?php echo get_theme_mod('twitter_setting','http://www.twitter.com');?>" class="item">
 					            	<i class="fa fa-twitter"></i>
 					            </a>
-					            <a class="item">
+					            <a href="<?php echo get_theme_mod('pinterest_setting','http://www.pinterest.com');?>" class="item">
 					            	<i class="fa fa-pinterest"></i>
 					            </a>
-					            <a class="item">
+					           <a href="<?php echo get_theme_mod('google_setting','http://www.google.com');?>" class="item">
 					            	<i class="fa fa-google-plus"></i>
 					            </a>
-					            <a class="item">
+					           <a href="<?php echo 'mailto:' . get_theme_mod('email_setting','info@volunteerhalifax.ca');?>" class="item">
 					            	<i class="fa fa-envelope"></i>
 					            </a>
      							</div>

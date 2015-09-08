@@ -6,7 +6,6 @@
                     <?php if(is_active_sidebar('footer-sidebar-3')){ dynamic_sidebar('footer-sidebar-3');}?>
                     <?php if(is_active_sidebar('footer-sidebar-4')){ dynamic_sidebar('footer-sidebar-4');}?>
                     </div>
-                    <div class="row"><?php echo get_theme_mod('text_setting','Hello'); ?></div>
                   </div><!-- end #top-footer -->
 		    					<div class="bottom-footer">
 		    						<div class="row">
@@ -15,11 +14,9 @@
 		    						</div>
 		    					<div class="large-6 large-uncentered columns">
 		    						<div class="icon-bar five-up">
-     									<span class="fa-stack fa-lg"><a class="item">
-					            	<i class="fa fa-square-o fa-stack-2x"></i>
-					            	<i class="fa fa-facebook fa-stack-1x"></i>
+     									<a href="<?php echo get_theme_mod('facebook_setting','http://www.google.com');?>" class="item">
+					            	<i class="fa fa-facebook"></i>
 					            </a>
-					            </span>
 					            <a class="item">
 					            	<i class="fa fa-twitter"></i>
 					            </a>

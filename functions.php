@@ -36,40 +36,16 @@ require_once(get_template_directory().'/assets/functions/userroles.php');
 // Use this as a template for custom post types
 require_once(get_template_directory().'/assets/functions/custom-post-type.php');
 
+// Use this as a template for the theme customization api
+require_once(get_template_directory().'/assets/functions/customizer.php');
+
+// Use this as a template for WP shortcodes
+require_once(get_template_directory().'/assets/functions/shortcodes.php');
+
 // Customize the WordPress login menu
 // require_once(get_template_directory().'/assets/functions/login.php'); 
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php'); 
 
-//Theme Customization API
-/*Text for footer*/
-add_action('customize_register', 'theme_footer_customizer');
-function theme_footer_customizer($wp_customize){
- //adding section in wordpress customizer   
-$wp_customize->add_section('footer_settings_section', array(
-  'title'          => 'Footer Text Section'
- ));
-//adding setting for footer text area
-$wp_customize->add_setting('text_setting', array(
- 'default'        => 'Default Text For Footer Section',
- ));
-$wp_customize->add_control('text_setting', array(
- 'label'   => 'Footer Text Here',
-  'section' => 'footer_settings_section',
- 'type'    => 'textarea',
-)); 
-
-$wp_customize->add_section( 'themeslug_logo_section' , array(
-    'title'       => __( 'Logo', 'themeslug' ),
-    'priority'    => 30,
-    'description' => 'Upload a logo to replace the default site name and description in the header',
-) ); 
-$wp_customize->add_setting( 'themeslug_logo' );
-$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'themeslug_logo', array(
-    'label'    => __( 'Logo', 'themeslug' ),
-    'section'  => 'themeslug_logo_section',
-    'settings' => 'themeslug_logo',
-) ) );
-}
 ?>
