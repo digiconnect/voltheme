@@ -30,11 +30,14 @@ CSS file.
 // Import your custom styles
 @import "main";
 
-// Import your retina/HD sty;es
+// Import your retina/HD styles
 @import "2x";
 
 // Import your print styles
 @import "print";
+
+// Import your custom styles
+@import "custom";
 
 // Import font-awesome
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";

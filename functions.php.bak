@@ -39,10 +39,19 @@ require_once(get_template_directory().'/assets/functions/custom-post-type.php');
 // Use this as a template for the theme customization api
 require_once(get_template_directory().'/assets/functions/customizer.php');
 
+// Use this as a template for WP shortcodes
+require_once(get_template_directory().'/assets/functions/shortcodes.php');
+
 // Customize the WordPress login menu
 // require_once(get_template_directory().'/assets/functions/login.php'); 
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php'); 
 
+add_filter('avf_load_google_map_api', 'disable_google_map_api', 10, 1);
+
+function disable_google_map_api($load_google_map_api) {
+	$load_google_map_api = false;
+	return $load_google_map_api;
+}
 ?>

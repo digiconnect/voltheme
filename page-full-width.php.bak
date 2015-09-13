@@ -12,7 +12,7 @@ Template Name: Full Width (No Sidebar)
 			
 				    <div id="main" class="large-12 medium-12 columns" role="main">
 					 <!-- adding Yoast SEO's breadcrumbs -->
-					 <?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>	
+					 <?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 						<?php get_template_part( 'parts/loop', 'page' ); ?>
 					    					
     				</div> <!-- end #main -->

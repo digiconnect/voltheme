@@ -47,5 +47,4 @@ require_once(get_template_directory().'/assets/functions/shortcodes.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php'); 
-
 ?>

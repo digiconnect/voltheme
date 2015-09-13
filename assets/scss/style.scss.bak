@@ -7,7 +7,8 @@ all of your Sass files so they can compile into one
 CSS file. 
 ******************************************************************/
 
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 // IMPORTING STYLES
 
@@ -34,6 +35,9 @@ CSS file.
 
 // Import your print styles
 @import "print";
+
+// Import your custom styles
+@import "custom";
 
 // Import font-awesome
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";

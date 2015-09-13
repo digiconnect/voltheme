@@ -41,4 +41,4 @@
 						           <?php get_template_part( 'parts/nav', 'top-offcanvas' );?> 	 	
 					</header> <!-- end .header -->
  <!-- adding Yoast SEO's breadcrumbs -->
-					
+					 <div class="row"><?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?></div>

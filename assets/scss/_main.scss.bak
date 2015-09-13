@@ -70,7 +70,7 @@ h5, .h5 {
 }
 
 .fa-lg{
-	font-size:3.33333rem;
+	font-size:3.33333rem !important;
 }
 
 /*********************

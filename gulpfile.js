@@ -20,7 +20,7 @@ gulp.task('styles', function() {
             gutil.log(gutil.colors.red(error.message));
             this.emit('end');
     }))
-    .pipe(sass())
+    .pipe(sass({errLogToConsole: true}))
     .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
