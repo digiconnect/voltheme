@@ -1,9 +1,7 @@
-<div class="show-for-medium-up contain-to-grid">
+<div class="show-for-medium-up">
 	<nav class="social-bar" data-topbar>
-		<ul class="title-area">
-			<!-- Title Area -->
-		</ul>		
 		<section class="top-bar-section">
+			Test
 				</section>
 	</nav>
 </div>

@@ -4963,7 +4963,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #FFFFFF; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -4987,7 +4987,7 @@ meta.foundation-mq-topbar {
       z-index: 98; }
 
 .top-bar {
-  background: #333333;
+  background: #FFFFFF;
   height: 6.25rem;
   line-height: 6.25rem;
   margin-bottom: 0;
@@ -5073,7 +5073,7 @@ meta.foundation-mq-topbar {
     background: transparent;
     height: auto; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #FFFFFF; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span::after {
@@ -5099,7 +5099,7 @@ meta.foundation-mq-topbar {
     width: 100%; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px gray;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -5331,7 +5331,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.0625em) {
   .top-bar {
-    background: #333333;
+    background: #FFFFFF;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -5358,7 +5358,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 2.25rem; }
     .top-bar.expanded {
-      background: #333333; }
+      background: #FFFFFF; }
   .contain-to-grid .top-bar {
     margin-bottom: 0;
     margin: 0 auto;
@@ -5379,7 +5379,7 @@ meta.foundation-mq-topbar {
       background: #222222;
       color: #FFFFFF; }
     .top-bar-section li:not(.has-form) a:not(.button) {
-      background: #333333;
+      background: #FFFFFF;
       line-height: 6.25rem;
       padding: 0 1.25rem; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -5461,14 +5461,14 @@ meta.foundation-mq-topbar {
         top: 0; }
     .top-bar-section > ul > .divider,
     .top-bar-section > ul > [role="separator"] {
-      border-right: solid 1px #4e4e4e;
+      border-right: solid 1px white;
       border-bottom: none;
       border-top: none;
       clear: none;
       height: 6.25rem;
       width: 0; }
     .top-bar-section .has-form {
-      background: #333333;
+      background: #FFFFFF;
       height: 6.25rem;
       padding: 0 1.25rem; }
     .top-bar-section .right li .dropdown {
@@ -7165,13 +7165,6 @@ to display none.
 
 Stylesheet: Custom Stylesheet
 
-This stylesheet is loaded (if admin.php is setup in your
-functions file) on the login page. This way you can style
-the login page. It won't affect any other page, admin or front-end.
-
-For more info, check out the codex:
-http://codex.wordpress.org/Creating_Admin_Themes
-
 ******************************************************************/
 /* font awesome styling */
 .fa {
@@ -7181,7 +7174,8 @@ http://codex.wordpress.org/Creating_Admin_Themes
   border-right: none !important; }
 
 .social-bar {
-  min-height: 1.125rem; }
+  min-height: 2.1875rem;
+  background-color: #222222; }
 
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
