@@ -12,8 +12,10 @@ Template Name: Front Page
 				    <div id="main" class="large-8 medium-8 columns" role="main">
 					 
 					  <!-- To see additional archive styles, visit the /parts directory -->
+					  <h1><?php echo get_theme_mod('city_setting','Halifax')?> Volunteer Opportunities</h1>
+					  <!-- call formidable pro view, for frontpage volunteer opportunities -->
 					  <?php echo FrmProDisplaysController::get_shortcode( array( 'id' => frontpage) ) ?>
-					    <?php get_template_part( 'parts/loop', 'archive' ); ?>
+					    <?php get_template_part( 'parts/loop', '' ); ?><!-- think of putting some loop in here for adding text -->
 								
 				    </div> <!-- end #main -->
     

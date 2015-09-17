@@ -21,7 +21,7 @@ function places_taxonomy() {
         'place',        //post type name
         array(  
             'hierarchical' => true,  
-            'label' => 'Categories',  //Display name
+            'label' => 'Place Categories',  //Display name
             'query_var' => true,
             'rewrite' => array(
                 'slug' => 'place', // This controls the base slug that will display before each term
@@ -68,7 +68,7 @@ function events_taxonomy() {
         'event',        //post type name
         array(  
             'hierarchical' => true,  
-            'label' => 'Categories',  //Display name
+            'label' => 'Event Categories',  //Display name
             'query_var' => true,
             'rewrite' => array(
                 'slug' => 'event', // This controls the base slug that will display before each term
@@ -114,7 +114,7 @@ function opportunities_taxonomy() {
         'opportunity',        //post type name
         array(  
             'hierarchical' => true,  
-            'label' => 'Categories',  //Display name
+            'label' => 'Opportunity Categories',  //Display name
             'query_var' => true,
             'rewrite' => array(
                 'slug' => 'opportunity', // This controls the base slug that will display before each term
@@ -160,7 +160,7 @@ function organizations_taxonomy() {
         'organization',        //post type name
         array(  
             'hierarchical' => true,  
-            'label' => 'Categories',  //Display name
+            'label' => 'Organization Categories',  //Display name
             'query_var' => true,
             'rewrite' => array(
                 'slug' => 'organization', // This controls the base slug that will display before each term

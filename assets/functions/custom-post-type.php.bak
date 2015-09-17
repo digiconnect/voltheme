@@ -21,7 +21,7 @@ function places_taxonomy() {
         'place',        //post type name
         array(  
             'hierarchical' => true,  
-            'label' => 'Categories',  //Display name
+            'label' => 'Place Categories',  //Display name
             'query_var' => true,
             'rewrite' => array(
                 'slug' => 'place', // This controls the base slug that will display before each term
@@ -1202,11 +1202,11 @@ function create_my_places_cats (){
 	
 	// child #1 for place categories
 	
-	$parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Car Appraisers"){
+$parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Car Appraisers', // the term
 'places_categories',//the taxonomy
@@ -1217,10 +1217,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Car Dealers and Leasing"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Car Dealers and Leasing', // the term
 'places_categories',//the taxonomy
@@ -1231,10 +1231,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Car Parts and Accessories"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Car Parts and Accessories', // the term
 'places_categories',//the taxonomy
@@ -1245,10 +1245,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Car Wash and Detail"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Car Wash and Detail', // the term
 'places_categories',//the taxonomy
@@ -1259,10 +1259,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Classic and Antique Car"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Classic and Antique Car', // the term
 'places_categories',//the taxonomy
@@ -1273,10 +1273,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Maintenance and Repair"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Maintenance and Repair', // the term
 'places_categories',//the taxonomy
@@ -1287,10 +1287,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Motorcycles, Mopeds and Scooters"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Motorcycles, Mopeds and Scooters', // the term
 'places_categories',//the taxonomy
@@ -1301,10 +1301,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="RVs and Motor Homes"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'RVs and Motor Homes', // the term
 'places_categories',//the taxonomy
@@ -1315,10 +1315,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Salvage Yards"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Salvage Yards', // the term
 'places_categories',//the taxonomy
@@ -1329,10 +1329,10 @@ array(
 )
 );}
 $parent_term = term_exists('Automotive','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Towing"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automotive"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Towing', // the term
 'places_categories',//the taxonomy
@@ -1343,10 +1343,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Advertising and Marketing"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Advertising and Marketing', // the term
 'places_categories',//the taxonomy
@@ -1357,10 +1357,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Agriculture and Forestry"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Agriculture and Forestry', // the term
 'places_categories',//the taxonomy
@@ -1371,10 +1371,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Art Restoration"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Art Restoration', // the term
 'places_categories',//the taxonomy
@@ -1385,10 +1385,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Audiovisual"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Audiovisual', // the term
 'places_categories',//the taxonomy
@@ -1399,10 +1399,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Automation and Control Systems"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Automation and Control Systems', // the term
 'places_categories',//the taxonomy
@@ -1413,10 +1413,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Business and Strategy Consulting"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Business and Strategy Consulting', // the term
 'places_categories',//the taxonomy
@@ -1427,10 +1427,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Career Counseling"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Career Counseling', // the term
 'places_categories',//the taxonomy
@@ -1441,10 +1441,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Chemicals and Gasses"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Chemicals and Gasses', // the term
 'places_categories',//the taxonomy
@@ -1455,10 +1455,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Computers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Computers', // the term
 'places_categories',//the taxonomy
@@ -1469,10 +1469,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Construction"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Construction', // the term
 'places_categories',//the taxonomy
@@ -1483,10 +1483,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Corporate HQ"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Corporate HQ', // the term
 'places_categories',//the taxonomy
@@ -1497,10 +1497,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Electrical Equipment"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Electrical Equipment', // the term
 'places_categories',//the taxonomy
@@ -1511,10 +1511,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Employment Agencies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Employment Agencies', // the term
 'places_categories',//the taxonomy
@@ -1525,10 +1525,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Engineering"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Engineering', // the term
 'places_categories',//the taxonomy
@@ -1539,10 +1539,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Entertainment"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Entertainment', // the term
 'places_categories',//the taxonomy
@@ -1553,10 +1553,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Equipment Rental"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Equipment Rental', // the term
 'places_categories',//the taxonomy
@@ -1567,10 +1567,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Events and Event Planning"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Events and Event Planning', // the term
 'places_categories',//the taxonomy
@@ -1581,10 +1581,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Financial"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Financial', // the term
 'places_categories',//the taxonomy
@@ -1595,10 +1595,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Food and Beverage"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Food and Beverage', // the term
 'places_categories',//the taxonomy
@@ -1609,10 +1609,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Funeral Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Funeral Services', // the term
 'places_categories',//the taxonomy
@@ -1623,10 +1623,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Geological"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Geological', // the term
 'places_categories',//the taxonomy
@@ -1637,10 +1637,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Home Improvement"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Home Improvement', // the term
 'places_categories',//the taxonomy
@@ -1651,10 +1651,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Human Resources"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Human Resources', // the term
 'places_categories',//the taxonomy
@@ -1665,10 +1665,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Import and Export"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Import and Export', // the term
 'places_categories',//the taxonomy
@@ -1679,10 +1679,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Industrial Machinery and Vehicles"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Industrial Machinery and Vehicles', // the term
 'places_categories',//the taxonomy
@@ -1693,10 +1693,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Insurance"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Insurance', // the term
 'places_categories',//the taxonomy
@@ -1707,10 +1707,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Leather"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Leather', // the term
 'places_categories',//the taxonomy
@@ -1721,10 +1721,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Legal"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Legal', // the term
 'places_categories',//the taxonomy
@@ -1735,10 +1735,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Logging and Sawmills"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Logging and Sawmills', // the term
 'places_categories',//the taxonomy
@@ -1749,10 +1749,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Machine Shops"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Machine Shops', // the term
 'places_categories',//the taxonomy
@@ -1763,10 +1763,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Management"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Management', // the term
 'places_categories',//the taxonomy
@@ -1777,10 +1777,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Manufacturing"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Manufacturing', // the term
 'places_categories',//the taxonomy
@@ -1791,10 +1791,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Metals"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Metals', // the term
 'places_categories',//the taxonomy
@@ -1805,10 +1805,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Packaging"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Packaging', // the term
 'places_categories',//the taxonomy
@@ -1819,10 +1819,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Paper"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Paper', // the term
 'places_categories',//the taxonomy
@@ -1833,10 +1833,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Personal Care"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Personal Care', // the term
 'places_categories',//the taxonomy
@@ -1847,10 +1847,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Petroleum"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Petroleum', // the term
 'places_categories',//the taxonomy
@@ -1861,10 +1861,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Photography"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Photography', // the term
 'places_categories',//the taxonomy
@@ -1875,10 +1875,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Plastics"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Plastics', // the term
 'places_categories',//the taxonomy
@@ -1889,10 +1889,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Printing, Copying and Signage"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Printing, Copying and Signage', // the term
 'places_categories',//the taxonomy
@@ -1903,10 +1903,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Professional Cleaning"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Professional Cleaning', // the term
 'places_categories',//the taxonomy
@@ -1917,10 +1917,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Publishing"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Publishing', // the term
 'places_categories',//the taxonomy
@@ -1931,10 +1931,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Real Estate"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Real Estate', // the term
 'places_categories',//the taxonomy
@@ -1945,10 +1945,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Refrigeration and Ice"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Refrigeration and Ice', // the term
 'places_categories',//the taxonomy
@@ -1959,10 +1959,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Renewable Energy"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Renewable Energy', // the term
 'places_categories',//the taxonomy
@@ -1973,10 +1973,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Repair Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Repair Services', // the term
 'places_categories',//the taxonomy
@@ -1987,10 +1987,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Rubber"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Rubber', // the term
 'places_categories',//the taxonomy
@@ -2001,10 +2001,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Scientific"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Scientific', // the term
 'places_categories',//the taxonomy
@@ -2015,10 +2015,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Security and Safety"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Security and Safety', // the term
 'places_categories',//the taxonomy
@@ -2029,10 +2029,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Shipping, Freight, and Material Transportation"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Shipping, Freight, and Material Transportation', // the term
 'places_categories',//the taxonomy
@@ -2043,10 +2043,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Storage"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Storage', // the term
 'places_categories',//the taxonomy
@@ -2057,10 +2057,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Tailors"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Tailors', // the term
 'places_categories',//the taxonomy
@@ -2071,10 +2071,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Technology"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Technology', // the term
 'places_categories',//the taxonomy
@@ -2085,10 +2085,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Telecommunication Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Telecommunication Services', // the term
 'places_categories',//the taxonomy
@@ -2099,10 +2099,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Textiles"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Textiles', // the term
 'places_categories',//the taxonomy
@@ -2113,10 +2113,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Translation Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Translation Services', // the term
 'places_categories',//the taxonomy
@@ -2127,10 +2127,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Veterinarians"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Veterinarians', // the term
 'places_categories',//the taxonomy
@@ -2141,10 +2141,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Water and Waste Management"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Water and Waste Management', // the term
 'places_categories',//the taxonomy
@@ -2155,10 +2155,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Welding"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Welding', // the term
 'places_categories',//the taxonomy
@@ -2169,10 +2169,10 @@ array(
 )
 );}
 $parent_term = term_exists('Businesses and Services','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Wholesale"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Businesses and Services"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Wholesale', // the term
 'places_categories',//the taxonomy
@@ -2183,10 +2183,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Animal Shelters and Humane Societies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Animal Shelters and Humane Societies', // the term
 'places_categories',//the taxonomy
@@ -2197,10 +2197,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Cemeteries"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Cemeteries', // the term
 'places_categories',//the taxonomy
@@ -2211,10 +2211,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Day Care and Preschools"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Day Care and Preschools', // the term
 'places_categories',//the taxonomy
@@ -2225,10 +2225,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Disabled Persons Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Disabled Persons Services', // the term
 'places_categories',//the taxonomy
@@ -2239,10 +2239,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Drug and Alcohol Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Drug and Alcohol Services', // the term
 'places_categories',//the taxonomy
@@ -2253,10 +2253,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Education"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Education', // the term
 'places_categories',//the taxonomy
@@ -2267,10 +2267,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Government Departments and Agencies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Government Departments and Agencies', // the term
 'places_categories',//the taxonomy
@@ -2281,10 +2281,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Government Lobbyists"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Government Lobbyists', // the term
 'places_categories',//the taxonomy
@@ -2295,10 +2295,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Housing Assistance and Shelters"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Housing Assistance and Shelters', // the term
 'places_categories',//the taxonomy
@@ -2309,10 +2309,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Law Enforcement and Public Safety"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Law Enforcement and Public Safety', // the term
 'places_categories',//the taxonomy
@@ -2323,10 +2323,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Libraries"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Libraries', // the term
 'places_categories',//the taxonomy
@@ -2337,10 +2337,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Military"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Military', // the term
 'places_categories',//the taxonomy
@@ -2351,10 +2351,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Organizations and Associations"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Organizations and Associations', // the term
 'places_categories',//the taxonomy
@@ -2365,10 +2365,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Post Offices"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Post Offices', // the term
 'places_categories',//the taxonomy
@@ -2379,10 +2379,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Public and Social Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Public and Social Services', // the term
 'places_categories',//the taxonomy
@@ -2393,10 +2393,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Religious"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Religious', // the term
 'places_categories',//the taxonomy
@@ -2407,10 +2407,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Senior Citizen Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Senior Citizen Services', // the term
 'places_categories',//the taxonomy
@@ -2421,10 +2421,10 @@ array(
 )
 );}
 $parent_term = term_exists('Community and Government','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Utility Companies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Community and Government"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Utility Companies', // the term
 'places_categories',//the taxonomy
@@ -2435,10 +2435,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="AIDS Resources"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'AIDS Resources', // the term
 'places_categories',//the taxonomy
@@ -2449,10 +2449,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Assisted Living Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Assisted Living Services', // the term
 'places_categories',//the taxonomy
@@ -2463,10 +2463,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Blood Banks and Centers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Blood Banks and Centers', // the term
 'places_categories',//the taxonomy
@@ -2477,10 +2477,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Chiropractors"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Chiropractors', // the term
 'places_categories',//the taxonomy
@@ -2491,10 +2491,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Dentists"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Dentists', // the term
 'places_categories',//the taxonomy
@@ -2505,10 +2505,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Emergency Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Emergency Services', // the term
 'places_categories',//the taxonomy
@@ -2519,10 +2519,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Holistic, Alternative and Naturopathic Medicine"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Holistic, Alternative and Naturopathic Medicine', // the term
 'places_categories',//the taxonomy
@@ -2533,10 +2533,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Home Health Care Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Home Health Care Services', // the term
 'places_categories',//the taxonomy
@@ -2547,10 +2547,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Hospitals, Clinics and Medical Centers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Hospitals, Clinics and Medical Centers', // the term
 'places_categories',//the taxonomy
@@ -2561,10 +2561,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Medical Supplies and Labs"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Medical Supplies and Labs', // the term
 'places_categories',//the taxonomy
@@ -2575,10 +2575,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Mental Health"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Mental Health', // the term
 'places_categories',//the taxonomy
@@ -2589,10 +2589,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Nurses"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Nurses', // the term
 'places_categories',//the taxonomy
@@ -2603,10 +2603,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Optometrist"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Optometrist', // the term
 'places_categories',//the taxonomy
@@ -2617,10 +2617,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Pharmacies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Pharmacies', // the term
 'places_categories',//the taxonomy
@@ -2631,10 +2631,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Physical Therapy and Rehabilitation"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Physical Therapy and Rehabilitation', // the term
 'places_categories',//the taxonomy
@@ -2645,10 +2645,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Physicians"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Physicians', // the term
 'places_categories',//the taxonomy
@@ -2659,10 +2659,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Podiatrists"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Podiatrists', // the term
 'places_categories',//the taxonomy
@@ -2673,10 +2673,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Pregnancy and Sexual Health"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Pregnancy and Sexual Health', // the term
 'places_categories',//the taxonomy
@@ -2687,10 +2687,10 @@ array(
 )
 );}
 $parent_term = term_exists('Healthcare','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Weight Loss and Nutritionists"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Healthcare"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Weight Loss and Nutritionists', // the term
 'places_categories',//the taxonomy
@@ -2701,10 +2701,10 @@ array(
 )
 );}
 $parent_term = term_exists('Landmarks','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Buildings and Structures"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Landmarks"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Buildings and Structures', // the term
 'places_categories',//the taxonomy
@@ -2715,10 +2715,10 @@ array(
 )
 );}
 $parent_term = term_exists('Landmarks','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Gardens"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Landmarks"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Gardens', // the term
 'places_categories',//the taxonomy
@@ -2729,10 +2729,10 @@ array(
 )
 );}
 $parent_term = term_exists('Landmarks','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Historic and Protected Sites"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Landmarks"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Historic and Protected Sites', // the term
 'places_categories',//the taxonomy
@@ -2743,10 +2743,10 @@ array(
 )
 );}
 $parent_term = term_exists('Landmarks','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Monuments and Memorials"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Landmarks"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Monuments and Memorials', // the term
 'places_categories',//the taxonomy
@@ -2757,10 +2757,10 @@ array(
 )
 );}
 $parent_term = term_exists('Landmarks','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Natural"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Landmarks"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Natural', // the term
 'places_categories',//the taxonomy
@@ -2771,10 +2771,10 @@ array(
 )
 );}
 $parent_term = term_exists('Landmarks','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Parks"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Landmarks"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Parks', // the term
 'places_categories',//the taxonomy
@@ -2785,10 +2785,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Adult"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Adult', // the term
 'places_categories',//the taxonomy
@@ -2799,10 +2799,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Antiques"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Antiques', // the term
 'places_categories',//the taxonomy
@@ -2813,10 +2813,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Arts and Crafts"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Arts and Crafts', // the term
 'places_categories',//the taxonomy
@@ -2827,10 +2827,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Auctions"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Auctions', // the term
 'places_categories',//the taxonomy
@@ -2841,10 +2841,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Beauty Products"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Beauty Products', // the term
 'places_categories',//the taxonomy
@@ -2855,10 +2855,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Bicycles"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Bicycles', // the term
 'places_categories',//the taxonomy
@@ -2869,10 +2869,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Bookstores"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Bookstores', // the term
 'places_categories',//the taxonomy
@@ -2883,10 +2883,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Cards and Stationery"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Cards and Stationery', // the term
 'places_categories',//the taxonomy
@@ -2897,10 +2897,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Children"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Children', // the term
 'places_categories',//the taxonomy
@@ -2911,10 +2911,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Computers and Electronics"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Computers and Electronics', // the term
 'places_categories',//the taxonomy
@@ -2925,10 +2925,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Construction Supplies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Construction Supplies', // the term
 'places_categories',//the taxonomy
@@ -2939,10 +2939,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Convenience Stores"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Convenience Stores', // the term
 'places_categories',//the taxonomy
@@ -2953,10 +2953,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Costumes"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Costumes', // the term
 'places_categories',//the taxonomy
@@ -2967,10 +2967,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Dance and Music"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Dance and Music', // the term
 'places_categories',//the taxonomy
@@ -2981,10 +2981,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Department Stores"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Department Stores', // the term
 'places_categories',//the taxonomy
@@ -2995,10 +2995,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Discount Stores"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Discount Stores', // the term
 'places_categories',//the taxonomy
@@ -3009,10 +3009,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Fashion"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Fashion', // the term
 'places_categories',//the taxonomy
@@ -3023,10 +3023,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Flea Markets"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Flea Markets', // the term
 'places_categories',//the taxonomy
@@ -3037,10 +3037,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Florists"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Florists', // the term
 'places_categories',//the taxonomy
@@ -3051,10 +3051,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Food and Beverage"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Food and Beverage', // the term
 'places_categories',//the taxonomy
@@ -3065,10 +3065,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Furniture and Decor"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Furniture and Decor', // the term
 'places_categories',//the taxonomy
@@ -3079,10 +3079,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Gift and Novelty"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Gift and Novelty', // the term
 'places_categories',//the taxonomy
@@ -3093,10 +3093,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Glasses"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Glasses', // the term
 'places_categories',//the taxonomy
@@ -3107,10 +3107,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Hobby and Collectibles"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Hobby and Collectibles', // the term
 'places_categories',//the taxonomy
@@ -3121,10 +3121,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Home Appliances"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Home Appliances', // the term
 'places_categories',//the taxonomy
@@ -3135,10 +3135,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Housewares"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Housewares', // the term
 'places_categories',//the taxonomy
@@ -3149,10 +3149,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Luggage"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Luggage', // the term
 'places_categories',//the taxonomy
@@ -3163,10 +3163,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Music, Video and DVD"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Music, Video and DVD', // the term
 'places_categories',//the taxonomy
@@ -3177,10 +3177,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Newsstands"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Newsstands', // the term
 'places_categories',//the taxonomy
@@ -3191,10 +3191,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Nurseries and Garden Centers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Nurseries and Garden Centers', // the term
 'places_categories',//the taxonomy
@@ -3205,10 +3205,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Office Supplies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Office Supplies', // the term
 'places_categories',//the taxonomy
@@ -3219,10 +3219,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Outlet"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Outlet', // the term
 'places_categories',//the taxonomy
@@ -3233,10 +3233,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Party Supplies"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Party Supplies', // the term
 'places_categories',//the taxonomy
@@ -3247,10 +3247,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Pawn Shops"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Pawn Shops', // the term
 'places_categories',//the taxonomy
@@ -3261,10 +3261,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Pets"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Pets', // the term
 'places_categories',//the taxonomy
@@ -3275,10 +3275,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Photos and Frames"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Photos and Frames', // the term
 'places_categories',//the taxonomy
@@ -3289,10 +3289,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Shopping Centers and Malls"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Shopping Centers and Malls', // the term
 'places_categories',//the taxonomy
@@ -3303,10 +3303,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sporting Goods"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Sporting Goods', // the term
 'places_categories',//the taxonomy
@@ -3317,10 +3317,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Supermarkets and Groceries"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Supermarkets and Groceries', // the term
 'places_categories',//the taxonomy
@@ -3331,10 +3331,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Tobacco"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Tobacco', // the term
 'places_categories',//the taxonomy
@@ -3345,10 +3345,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Toys"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Toys', // the term
 'places_categories',//the taxonomy
@@ -3359,10 +3359,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Vintage and Thrift"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Vintage and Thrift', // the term
 'places_categories',//the taxonomy
@@ -3373,10 +3373,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Warehouses and Wholesale Stores"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Warehouses and Wholesale Stores', // the term
 'places_categories',//the taxonomy
@@ -3387,10 +3387,10 @@ array(
 )
 );}
 $parent_term = term_exists('Retail','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Wedding and Bridal"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Retail"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Wedding and Bridal', // the term
 'places_categories',//the taxonomy
@@ -3401,10 +3401,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Arts"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Arts', // the term
 'places_categories',//the taxonomy
@@ -3415,10 +3415,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Bars"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Bars', // the term
 'places_categories',//the taxonomy
@@ -3429,10 +3429,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Country Clubs"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Country Clubs', // the term
 'places_categories',//the taxonomy
@@ -3443,10 +3443,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Entertainment"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Entertainment', // the term
 'places_categories',//the taxonomy
@@ -3457,10 +3457,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Food and Dining"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Food and Dining', // the term
 'places_categories',//the taxonomy
@@ -3471,10 +3471,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Wineries and Vineyards"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Wineries and Vineyards', // the term
 'places_categories',//the taxonomy
@@ -3485,10 +3485,10 @@ array(
 )
 );}
 $parent_term = term_exists('Social','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Zoos, Aquariums and Wildlife Sanctuaries"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Social"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Zoos, Aquariums and Wildlife Sanctuaries', // the term
 'places_categories',//the taxonomy
@@ -3499,10 +3499,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Athletic Fields"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Athletic Fields', // the term
 'places_categories',//the taxonomy
@@ -3513,10 +3513,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Baseball"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Baseball', // the term
 'places_categories',//the taxonomy
@@ -3527,10 +3527,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Basketball"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Basketball', // the term
 'places_categories',//the taxonomy
@@ -3541,10 +3541,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Combat Sports"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Combat Sports', // the term
 'places_categories',//the taxonomy
@@ -3555,10 +3555,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Cycling"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Cycling', // the term
 'places_categories',//the taxonomy
@@ -3569,10 +3569,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Dance"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Dance', // the term
 'places_categories',//the taxonomy
@@ -3583,10 +3583,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Equestrian"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Equestrian', // the term
 'places_categories',//the taxonomy
@@ -3597,10 +3597,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Football"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Football', // the term
 'places_categories',//the taxonomy
@@ -3611,10 +3611,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Golf"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Golf', // the term
 'places_categories',//the taxonomy
@@ -3625,10 +3625,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Gun Ranges"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Gun Ranges', // the term
 'places_categories',//the taxonomy
@@ -3639,10 +3639,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Gymnastics"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Gymnastics', // the term
 'places_categories',//the taxonomy
@@ -3653,10 +3653,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Gyms and Fitness Centers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Gyms and Fitness Centers', // the term
 'places_categories',//the taxonomy
@@ -3667,10 +3667,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Hockey"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Hockey', // the term
 'places_categories',//the taxonomy
@@ -3681,10 +3681,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Outdoors"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Outdoors', // the term
 'places_categories',//the taxonomy
@@ -3695,10 +3695,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Paintball"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Paintball', // the term
 'places_categories',//the taxonomy
@@ -3709,10 +3709,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Personal Trainers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Personal Trainers', // the term
 'places_categories',//the taxonomy
@@ -3723,10 +3723,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Race Tracks"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Race Tracks', // the term
 'places_categories',//the taxonomy
@@ -3737,10 +3737,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Racquet Sports"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Racquet Sports', // the term
 'places_categories',//the taxonomy
@@ -3751,10 +3751,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Recreation Centers"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Recreation Centers', // the term
 'places_categories',//the taxonomy
@@ -3765,10 +3765,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Running"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Running', // the term
 'places_categories',//the taxonomy
@@ -3779,10 +3779,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Skating"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Skating', // the term
 'places_categories',//the taxonomy
@@ -3793,10 +3793,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Snow Sports"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Snow Sports', // the term
 'places_categories',//the taxonomy
@@ -3807,10 +3807,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Soccer"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Soccer', // the term
 'places_categories',//the taxonomy
@@ -3821,10 +3821,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports Clubs"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Sports Clubs', // the term
 'places_categories',//the taxonomy
@@ -3835,10 +3835,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Stadiums and Arenas"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Stadiums and Arenas', // the term
 'places_categories',//the taxonomy
@@ -3849,10 +3849,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Swimming Pools"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Swimming Pools', // the term
 'places_categories',//the taxonomy
@@ -3863,10 +3863,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Water Sports"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Water Sports', // the term
 'places_categories',//the taxonomy
@@ -3877,10 +3877,10 @@ array(
 )
 );}
 $parent_term = term_exists('Sports and Recreation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Yoga and Pilates"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Sports and Recreation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Yoga and Pilates', // the term
 'places_categories',//the taxonomy
@@ -3891,10 +3891,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Airlines and Aviation Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Airlines and Aviation Services', // the term
 'places_categories',//the taxonomy
@@ -3905,10 +3905,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Gas Stations"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Gas Stations', // the term
 'places_categories',//the taxonomy
@@ -3919,10 +3919,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Parking"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Parking', // the term
 'places_categories',//the taxonomy
@@ -3933,10 +3933,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Public Transportation Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Public Transportation Services', // the term
 'places_categories',//the taxonomy
@@ -3947,10 +3947,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Rest Areas"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Rest Areas', // the term
 'places_categories',//the taxonomy
@@ -3961,10 +3961,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Taxi and Car Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Taxi and Car Services', // the term
 'places_categories',//the taxonomy
@@ -3975,10 +3975,10 @@ array(
 )
 );}
 $parent_term = term_exists('Transportation','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transport Hubs"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Transportation"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Transport Hubs', // the term
 'places_categories',//the taxonomy
@@ -3989,10 +3989,10 @@ array(
 )
 );}
 $parent_term = term_exists('Travel','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Cruises"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Travel"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Cruises', // the term
 'places_categories',//the taxonomy
@@ -4003,10 +4003,10 @@ array(
 )
 );}
 $parent_term = term_exists('Travel','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Lodging"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Travel"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Lodging', // the term
 'places_categories',//the taxonomy
@@ -4017,10 +4017,10 @@ array(
 )
 );}
 $parent_term = term_exists('Travel','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Tourist Information and Services"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Travel"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Tourist Information and Services', // the term
 'places_categories',//the taxonomy
@@ -4031,10 +4031,10 @@ array(
 )
 );}
 $parent_term = term_exists('Travel','places_categories'); // array is returned if taxonomy is given
-if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Travel Agents and Tour Operators"){
+if($parent_term !== 0 && $parent_term !== null && $parent_term['term_id']=="Travel"){
 }
 else{
-$parent_term_id = $$parent_term['term_id']; // get numeric term id
+$parent_term_id = $parent_term['term_id']; // get numeric term id
 wp_insert_term(
 'Travel Agents and Tour Operators', // the term
 'places_categories',//the taxonomy

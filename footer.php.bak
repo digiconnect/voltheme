@@ -9,7 +9,7 @@
                   </div><!-- end #top-footer -->  
 								<div class="bottom-footer">
 									  <div class="row">
-									    <div class="large-4 medium-4 medium-push-8 columns">
+									    <div class="large-4 medium-4 medium-push-8 grid-content">
 									      <p class="logo"><i class="fi-shield"></i> <?php bloginfo('name'); ?></p> 
 									      <p class="footer-links">
 									        <a href="#">Home</a>
@@ -21,7 +21,7 @@
 									      </p>
 									      <p class="copywrite">Copywrite not copywrite © 2015</p>
 									    </div>
-									    <div class="large-8 medium-8 columns">
+									    <div class="large-8 medium-8 grid-content">
 									      <p class="about">About Star Wars</p>
 									      <p class="about subheader">Strike me down, and I will become more powerful than you could possibly imagine.</p>
 									      <div class="icon-bar four-up">

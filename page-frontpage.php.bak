@@ -12,8 +12,10 @@ Template Name: Front Page
 				    <div id="main" class="large-8 medium-8 columns" role="main">
 					 
 					  <!-- To see additional archive styles, visit the /parts directory -->
-					  <?php echo FrmProDisplaysController::get_shortcode( array( 'id' => 38) ) ?>
-					    <?php get_template_part( 'parts/loop', 'archive' ); ?>
+					  <h1>Halifax Volunteer Opportunities</h1>
+					  <!-- call formidable pro view, for frontpage volunteer opportunities -->
+					  <?php echo FrmProDisplaysController::get_shortcode( array( 'id' => frontpage) ) ?>
+					    <?php get_template_part( 'parts/loop', '' ); ?>
 								
 				    </div> <!-- end #main -->
     

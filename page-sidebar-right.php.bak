@@ -10,6 +10,7 @@ Template Name: Sidebar Right
 				<div id="inner-content" class="row">
 			
 				    <div id="main" class="large-8 medium-8 columns" role="main">
+					 <!-- adding Yoast SEO's breadcrumbs -->
 					 <?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 					  <!-- To see additional archive styles, visit the /parts directory -->
 					    <?php get_template_part( 'parts/loop', 'archive' ); ?>

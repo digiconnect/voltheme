@@ -13,7 +13,7 @@ Template Name: Sidebar Right
 					 <!-- adding Yoast SEO's breadcrumbs -->
 					 <?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<p id="breadcrumbs">','</p>');} ?>
 					  <!-- To see additional archive styles, visit the /parts directory -->
-					    <?php get_template_part( 'parts/loop', 'archive' ); ?>
+					    <?php get_template_part( 'parts/loop', 'page' ); ?>
 								
 				    </div> <!-- end #main -->
     
