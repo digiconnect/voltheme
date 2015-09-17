@@ -1428,7 +1428,7 @@ $topbar-height: rem-calc(100);
 $topbar-link-text-transform: uppercase;
 $topbar-link-padding: ($topbar-height / 5);
 // $topbar-back-link-size: rem-calc(18);
- $topbar-link-dropdown-padding: rem-calc(200);
+// $topbar-link-dropdown-padding: rem-calc(20);
 // $topbar-button-font-size: .75rem;
 // $topbar-button-top: 7px;
 
@@ -1469,7 +1469,7 @@ $topbar-link-padding: ($topbar-height / 5);
 // $topbar-input-height: rem-calc(28);
 
 // Divider Styles
-// $topbar-divider-border-bottom: solid 1px scale-color($topbar-bg-color, $lightness: 13%);
+$topbar-divider-border-bottom: solid 1px scale-color($topbar-bg-color, $lightness: 13%);
 // $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
 
 // Sticky Class

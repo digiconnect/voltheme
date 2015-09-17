@@ -15,3 +15,12 @@ http://codex.wordpress.org/Creating_Admin_Themes
 .fa{
 	color: $secondary-color
 }
+
+.divider{
+	border-right: none !important;
+}
+
+.social-bar{
+	
+	min-height: rem-calc(18);
+}

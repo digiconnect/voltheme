@@ -16,6 +16,11 @@ http://codex.wordpress.org/Creating_Admin_Themes
 	color: $secondary-color
 }
 
-.fa-medkit{
-	background-color: $primary-color
+.divider{
+	border-right: none !important;
+}
+
+.social-bar{
+	
+	min-height: rem-calc(99);
 }

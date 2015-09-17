@@ -7177,6 +7177,12 @@ http://codex.wordpress.org/Creating_Admin_Themes
 .fa {
   color: #e7e7e7; }
 
+.divider {
+  border-right: none !important; }
+
+.social-bar {
+  min-height: 1.125rem; }
+
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
