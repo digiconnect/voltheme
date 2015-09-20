@@ -2,7 +2,7 @@
 	<div class="social-bar">
 		<div class="row">
 			<div class="large-8 columns">
- 				 <a href="/volsites/add-volunteer-opportunity" class="button">Post Opportunity</a>
+ 				 <a href="/volsites/add-volunteer-opportunity" style="padding:10px;" class="button custom-button">Post Opportunity</a>
 	  	</div>
 	  	<div class="large-4 columns">
 	  		<div class="icon-bar five-up">
