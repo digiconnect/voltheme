@@ -1,4 +1,4 @@
-<div class="sticky show-for-medium-up contain-to-grid">
+<div class="show-for-medium-up contain-to-grid">
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
 			<!-- Title Area -->
