@@ -60,7 +60,7 @@ foreach ( $terms as $term ) {
     }
 
     // We successfully got a link. Print it out.
-    echo '<li><h5><a href="' . esc_url( $term_link ) . '">' . $term->name . '</a></h5></li>';
+    echo '<li><h4><a href="' . esc_url( $term_link ) . '">' . $term->name . '</a></h4></li>';
 }
 
 echo '</ul>';?>

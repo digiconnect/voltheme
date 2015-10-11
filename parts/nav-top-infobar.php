@@ -1,11 +1,11 @@
 <div class="show-for-large-up">
 	<div class="social-bar">
 		<div class="row">
-			<div class="large-8 columns">
- 				 <a href="/volsites/add-volunteer-opportunity" style="padding:10px;" class="button custom-button">Post Opportunity</a>
+			<div class="large-9 columns">
+ 				 <a href="/volsites/add-volunteer-opportunity" class="button radius custom-button">Post Opportunity</a>
 	  	</div>
-	  	<div class="large-4 columns">
-	  		<div class="icon-bar five-up">
+	  	<div class="large-3 columns">
+	  		<div class="icon-bar five-up custom-icon-bar">
      									<a href="<?php echo get_theme_mod('facebook_setting','http://www.facebook.com');?>" class="item">
 					            	<i class="fa fa-facebook"></i>
 					            </a>

@@ -12,13 +12,18 @@ Stylesheet: Custom Stylesheet
 	border-right: none !important;
 }
 .social-bar{
-	max-height: rem-calc(35);
+	max-height: rem-calc(39);
 	background-color: $jet
+}
+
+.custom-icon-bar a{
+	padding: 0.7rem !important;
 }
 
 /* this styling is for the button in "social bar", removes margin */
 .custom-button{
 	margin: 0;
+	padding: 10px !important;
 }
 
 /* event listing */

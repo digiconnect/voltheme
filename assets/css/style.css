@@ -9,6 +9,8 @@ CSS file.
 ******************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:700,400);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -434,6 +436,8 @@ Be careful with these since they can
 really slow down your CSS. Don't overdo it.
 *********************/
 /* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/*Georgia, Cambria, "Merriweather", Times, serif;*/
 meta.foundation-version {
   font-family: "/5.5.2/"; }
 
@@ -495,7 +499,7 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -560,7 +564,7 @@ select {
 
 .row {
   margin: 0 auto;
-  max-width: 62.5rem;
+  max-width: 80rem;
   width: 100%; }
   .row:before, .row:after {
     content: " ";
@@ -1383,7 +1387,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Droid Sans", sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1785,7 +1789,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3811,7 +3815,7 @@ kbd {
 
 .label {
   display: inline-block;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -4199,7 +4203,7 @@ button:focus {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4207,7 +4211,7 @@ button:focus {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -4385,7 +4389,7 @@ button:focus {
     .reveal-modal {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 80rem;
       right: 0;
       width: 80%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -4401,35 +4405,35 @@ button:focus {
     .reveal-modal.tiny {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 80rem;
       right: 0;
       width: 30%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.small {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 80rem;
       right: 0;
       width: 40%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.medium {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 80rem;
       right: 0;
       width: 60%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.large {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 80rem;
       right: 0;
       width: 70%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.xlarge {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 80rem;
       right: 0;
       width: 95%; } }
   .reveal-modal.full {
@@ -4444,7 +4448,7 @@ button:focus {
       .reveal-modal.full {
         left: 0;
         margin: 0 auto;
-        max-width: 62.5rem;
+        max-width: 80rem;
         right: 0;
         width: 100%; } }
   .reveal-modal.toback {
@@ -4461,7 +4465,7 @@ button:focus {
 
 .side-nav {
   display: block;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -4483,7 +4487,7 @@ button:focus {
         color: #f18070; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #f18070;
-      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Droid Sans", sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4603,7 +4607,7 @@ button:focus {
   .sub-nav li {
     color: #999999;
     float: left;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4792,7 +4796,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Droid Sans", sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover,
@@ -5108,7 +5112,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
-      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Droid Sans", sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 1.25rem;
@@ -5362,7 +5366,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     margin-bottom: 0;
     margin: 0 auto;
-    max-width: 62.5rem; }
+    max-width: 80rem; }
   .top-bar-section {
     transition: none 0 0;
     left: 0 !important; }
@@ -5670,7 +5674,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222222;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -6876,7 +6880,7 @@ POSTS & CONTENT STYLES
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -6974,7 +6978,7 @@ COMMENT STYLES
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -7174,12 +7178,16 @@ Stylesheet: Custom Stylesheet
   border-right: none !important; }
 
 .social-bar {
-  max-height: 2.1875rem;
+  max-height: 2.4375rem;
   background-color: #222222; }
+
+.custom-icon-bar a {
+  padding: 0.7rem !important; }
 
 /* this styling is for the button in "social bar", removes margin */
 .custom-button {
-  margin: 0; }
+  margin: 0;
+  padding: 10px !important; }
 
 /* event listing */
 .event {

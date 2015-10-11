@@ -9,10 +9,10 @@
                   </div><!-- end #top-footer -->  
 		    					<div class="bottom-footer">
 		    						<div class="row">
-		    							<div class="large-6 large-uncentered columns">
+		    							<div class="large-8 large-uncentered columns">
 		    							<div class="row"><p class="source-org copyright">&copy; <?php echo date('Y'); ?> <a href="<?php echo get_site_url(); ?>"><?php bloginfo('name'); ?></a> by <a href="http://www.digitalconcoction.net">Digital Concoction</a></p></div>
 		    						</div>
-		    					<div class="large-6 large-uncentered columns">
+		    					<div class="large-4 large-uncentered columns">
 		    						<div class="icon-bar five-up">
      									<a href="<?php echo get_theme_mod('facebook_setting','http://www.facebook.com');?>" class="item">
 					            	<i class="fa fa-facebook"></i>
