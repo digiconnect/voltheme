@@ -4,6 +4,11 @@ Stylesheet: Custom Stylesheet
 
 ******************************************************************/
 
+/* h1 */
+h1{
+	text-transform:uppercase;
+}
+
 /* font awesome styling */
 .fa{
 	color: $primary-color
@@ -12,7 +17,7 @@ Stylesheet: Custom Stylesheet
 	border-right: none !important;
 }
 .social-bar{
-	max-height: rem-calc(39);
+	max-height: rem-calc(40);
 	background-color: $jet
 }
 
