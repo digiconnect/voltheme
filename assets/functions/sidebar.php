@@ -22,7 +22,15 @@ function joints_register_sidebars() {
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
 	));
-
+        register_sidebar(array(
+                'id' => 'userwidget',
+                'name' => 'User Widgets',
+                'description' => 'The user specific sidebar.',
+                'before_widget' => '<div id=%1$s" class="widget %2$s">',
+                'after_widget' => '</div>',
+                'before_title' => '<h4 class="widgettitle">',
+                'after_title' => '</h4>',
+        ));
 	register_sidebar(array(
 		'id' => 'offcanvas',
 		'name' => __('Offcanvas', 'jointstheme'),
