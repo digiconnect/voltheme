@@ -564,7 +564,7 @@ select {
 
 .row {
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: 62.5rem;
   width: 100%; }
   .row:before, .row:after {
     content: " ";
@@ -4389,7 +4389,7 @@ button:focus {
     .reveal-modal {
       left: 0;
       margin: 0 auto;
-      max-width: 80rem;
+      max-width: 62.5rem;
       right: 0;
       width: 80%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -4405,35 +4405,35 @@ button:focus {
     .reveal-modal.tiny {
       left: 0;
       margin: 0 auto;
-      max-width: 80rem;
+      max-width: 62.5rem;
       right: 0;
       width: 30%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.small {
       left: 0;
       margin: 0 auto;
-      max-width: 80rem;
+      max-width: 62.5rem;
       right: 0;
       width: 40%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.medium {
       left: 0;
       margin: 0 auto;
-      max-width: 80rem;
+      max-width: 62.5rem;
       right: 0;
       width: 60%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.large {
       left: 0;
       margin: 0 auto;
-      max-width: 80rem;
+      max-width: 62.5rem;
       right: 0;
       width: 70%; } }
   @media only screen and (min-width: 40.0625em) {
     .reveal-modal.xlarge {
       left: 0;
       margin: 0 auto;
-      max-width: 80rem;
+      max-width: 62.5rem;
       right: 0;
       width: 95%; } }
   .reveal-modal.full {
@@ -4448,7 +4448,7 @@ button:focus {
       .reveal-modal.full {
         left: 0;
         margin: 0 auto;
-        max-width: 80rem;
+        max-width: 62.5rem;
         right: 0;
         width: 100%; } }
   .reveal-modal.toback {
@@ -5366,7 +5366,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     margin-bottom: 0;
     margin: 0 auto;
-    max-width: 80rem; }
+    max-width: 62.5rem; }
   .top-bar-section {
     transition: none 0 0;
     left: 0 !important; }
@@ -5687,7 +5687,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 1.5625rem; }
+  font-size: 1.375rem; }
 
 h2 {
   font-size: 1.6875rem; }
@@ -5865,7 +5865,7 @@ blockquote p {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
   h1 {
-    font-size: 2.1875rem; }
+    font-size: 2rem; }
   h2 {
     font-size: 2.3125rem; }
   h3 {
@@ -7170,6 +7170,10 @@ to display none.
 Stylesheet: Custom Stylesheet
 
 ******************************************************************/
+/* h1 */
+h1 {
+  text-transform: uppercase; }
+
 /* font awesome styling */
 .fa {
   color: #eb4a33; }
@@ -7178,7 +7182,7 @@ Stylesheet: Custom Stylesheet
   border-right: none !important; }
 
 .social-bar {
-  max-height: 2.4375rem;
+  max-height: 2.5rem;
   background-color: #222222; }
 
 .custom-icon-bar a {
